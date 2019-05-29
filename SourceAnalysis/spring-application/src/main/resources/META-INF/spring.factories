@@ -1,0 +1,15 @@
+# ApplicationContextInitializer 实现配置
+org.springframework.context.ApplicationContextInitializer=\
+com.peng.springapplication.context.AfterHelloWorldApplicationContextInitializer,\
+com.peng.springapplication.context.HelloWorldApplicationContextInitializer
+
+# ApplicationListener 实现配置
+org.springframework.context.ApplicationListener=\
+com.peng.springapplication.listener.AfterHelloWorldApplicationListener,\
+com.peng.springapplication.listener.HelloWorldApplicationListener,\
+com.peng.springapplication.listener.BeforeConfigFileApplicationListener
+
+# SpringApplicationRunListener 实现配置
+org.springframework.boot.SpringApplicationRunListener=\
+com.peng.springapplication.run.HelloWorldRunListener
+ 
